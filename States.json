@@ -1,0 +1,77 @@
+{
+	"entrance": {
+		"choices": [
+			{
+				"prompt": "Would you like to enter?",
+				"state": "crossroads"
+			}
+		]
+	},
+	"crossroads": {
+		"message": "You Are Met With A Crossroads That Branches Into 3 Dark Rooms.",
+		"choices": [
+			{
+				"prompt": "Go Left?(1)",
+				"state": "deathroom"
+			},
+			{
+				"prompt": "Go Forward?(2)",
+				"state": "battleroom"
+			},
+			{
+				"prompt": "Go Right?(3)",
+				"state": "treasureroom"
+			}
+		]
+	},
+	"deathroom": {
+		"specialtype": "dead",
+		"choices": [
+			{
+				"prompt": "You Fall Into A Large Pit And Get Stuck At The Bottom With No Way Out.",
+				"state": "dead"
+			}
+		]
+	},
+	"battleroom": {
+		"message": "You Encounter A Strange Looking Entity, It Wants To Fight!",
+		"specialtype": "battle",
+		"choices": [
+			{
+				"prompt": "(1)Attack, (2)Block, (3)Check"
+			}
+		],
+		"enemy": "the slime",
+		"enemytype": "basic"
+	},
+	"treasureroom": {
+		"message": "You Find A Large Pile Of Gems And Gold Coins.",
+		"choices": [
+			{
+				"prompt": "Take The Treasure?",
+				"state": "win"
+			}
+		]
+	},
+	"yeses": [
+		"yes",
+		"ye",
+		"y",
+		"si",
+		"positive",
+		"+",
+		"yep",
+		"true",
+		"yeh",
+		"yeah"
+	],
+	"lefts": [
+		"left"
+	],
+	"rights": [
+		"right"
+	],
+	"forwards": [
+		"forward"
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"basic": {
+		"the slime": {
+			"hp": 4,
+			"atk": 1,
+      "def": 3,
+      "img": "slime.png"
+		},
+    "the goblin": {
+      "hp": 7,
+      "atk": 1,
+      "def": 6,
+      "img": "goblin.png"
+    }
+
+
+
+	},
+	"boss": {
+		"sentientd20": {
+			"hp": 20,
+			"atk": 10,
+			"def": 10
+		}
+	}
+}
