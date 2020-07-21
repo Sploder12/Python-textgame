@@ -23,14 +23,14 @@
 			"def": 10
 		},
 		"Dragon": {
-			"hp": 1000,
+			"hp": 1500,
 			"atk": 500,
 			"def": 250
-		}
-	},
-	"Tarrasque": {
-		"hp": 100,
+		},
+		"Tarrasque": {
+		"hp": 1000,
 		"atk": 20,
 		"def": 20
+    }
 	}
 }
